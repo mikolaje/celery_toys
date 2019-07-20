@@ -1,26 +1,8 @@
-Skip to content
- 
- Search or jump to…
-
- Pull requests
- Issues
- Marketplace
- Explore
-  
-  @mikolaje 
-  2,796
-  85,059 41,702 github/gitignore
-   Code  Pull requests 87  Projects 0  Security  Insights
-   gitignore/Python.gitignore
-   @captainpete captainpete Add db.sqlite3-journal to Python.gitignore (#3063)
-   c1faae4 18 days ago
-   @arcresu @shiftkey @Lucretiel @Harrison-G @jwg4 @GabrielC101 @Metallicow @misaelnieto @pmsosa @svkampen @vltr @matheussl @hugovk @ghisvail @EvandroLG @DSIW @amigcamel @toanant @2Cubed @brettcannon @weinihou @Visgean @nvie @skuschel @sigo @sethmlarson
-   125 lines (101 sloc)  1.67 KB
        
 # Byte-compiled / optimized / DLL files
-       __pycache__/
-       *.py[cod]
-       *$py.class
+__pycache__/
+*.py[cod]
+*$py.class
 
 # C extensions
 *.so
@@ -141,16 +123,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
 
+__pycache__/
