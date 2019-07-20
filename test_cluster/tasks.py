@@ -4,7 +4,7 @@ import time
 
 
 
-app = Celery('test_cluster', broker='redis://10.170.0.2:6379/10')
+app = Celery('test_cluster', broker='redis://:fixesredis@10.170.0.2:6379/10')
 
 @app.task
 def add(x, y):
