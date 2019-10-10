@@ -6,6 +6,8 @@
 
 在此我想测试下能否将task的一些元数据保存在RDB上。比如保存在MySQL里。
 
+## 启动worker
+watchmedo auto-restart -- celery worker -l info -A tasks
 
 ## 实验结果
 在加了result_backend参数之后，在MySQL中会多 `celery_taskmeta` and `celery_tasksetmeta` 两个表。
